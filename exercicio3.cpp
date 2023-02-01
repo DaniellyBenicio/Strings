@@ -6,6 +6,8 @@
 int main(){
 	setlocale(LC_ALL, "Portuguese_Brazil");
 	
+	printf("Escolhendo uma frase e descobrindo qual o seu inverso\n\n");
+	
 	char x[500];
 	char inverso[500]= "";
 	
@@ -18,7 +20,7 @@ int main(){
 		inverso[i] = x[max - i];
 	}
 	
-	printf("A string invertida é: %s", inverso);
+	printf("A string invertida Ã©: %s", inverso);
 	
 	return 0;
 }
