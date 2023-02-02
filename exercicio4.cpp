@@ -22,6 +22,7 @@ int main(){
 		x[max-i] = aux;	
 	}
 	
-	printf("A string invertida é: %s", x);
+	printf("A string invertida Ã©: %s", x);
 	
+	return 0;	
 }
